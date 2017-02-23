@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{2DDED6C4-7BA5-4D40-8615-36007950AB3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers.Test", "Helpers.Test\Helpers.Test.csproj", "{8838D22A-23FD-49DD-A23F-048EB7922621}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DDED6C4-7BA5-4D40-8615-36007950AB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDED6C4-7BA5-4D40-8615-36007950AB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDED6C4-7BA5-4D40-8615-36007950AB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDED6C4-7BA5-4D40-8615-36007950AB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8838D22A-23FD-49DD-A23F-048EB7922621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8838D22A-23FD-49DD-A23F-048EB7922621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8838D22A-23FD-49DD-A23F-048EB7922621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8838D22A-23FD-49DD-A23F-048EB7922621}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
