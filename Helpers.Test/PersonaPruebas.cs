@@ -21,6 +21,7 @@ namespace Helpers.Test
                 "402-2186855-8", //false
                 "402-218685A-8", //false
                 "402-218685A-08", //false
+                "000-0000000-00" //false
             };
         }
 
@@ -36,6 +37,7 @@ namespace Helpers.Test
             Assert.AreEqual(false, PersonaHelper.ValidarCedula(cedulas[6]));
             Assert.AreEqual(false, PersonaHelper.ValidarCedula(cedulas[7]));
             Assert.AreEqual(false, PersonaHelper.ValidarCedula(cedulas[8]));
+            Assert.AreEqual(false, PersonaHelper.ValidarCedula(cedulas[9]));
         }
     }
 }

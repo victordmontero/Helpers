@@ -10,6 +10,9 @@ namespace Helpers
     {
         public static bool ValidarCedula(string cedula)
         {
+            if (cedula.All(x => x == '0'))
+                return false;
+
             if (cedula.Any(c => char.IsLetter(c)))
                 return false;
 
@@ -17,7 +20,7 @@ namespace Helpers
             string temp = string.Empty;
             if (cedula.Length == 11)
             {
-                for (int i = 0; i < cedula.Length-1; i++)
+                for (int i = 0; i < cedula.Length - 1; i++)
                 {
                     temp += (byte)char.GetNumericValue(cedula[i]) * (i % 2 + 1);
                 }
