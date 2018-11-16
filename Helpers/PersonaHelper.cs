@@ -29,5 +29,23 @@ namespace Helpers
             }
             return false;
         }
+
+        public static bool ValidarEmail(string email)
+        {
+            if (email.Any(c => c <= 32 || c >= 127))
+                return false;
+
+            try
+            {
+                var mail = new System.Net.Mail.MailAddress(email);
+                if (email.Split('@').Contains(" "))
+                    return false;
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
 }
